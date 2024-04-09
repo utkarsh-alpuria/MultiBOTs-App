@@ -1,4 +1,4 @@
-### MultiBOTs-App
+## MultiBOTs-App
 
 A Streamlit App featuring LLM-based chatbots.
 
@@ -16,10 +16,10 @@ A Streamlit App featuring LLM-based chatbots.
 
 1. Clone the project.
 2. Open the project folder in a code editor.
-3. In the code editor terminal, run the command pip install -r requirements.txt.
+3. In the code editor terminal, run the command `pip install -r requirements.txt`.
 4. Create accounts on [Hugging Face](https://huggingface.co/), [Cohere](https://cohere.com/), and [LangChain](https://www.langchain.com/), and generate your personal API keys or tokens on all platforms.
-5. Copy your created HuggingFace API token, Cohere API key, and LangChain API key from the platforms. Inside the .env file, replace "your HuggingFace API key", "your Cohere API key", and "your LangChain API key" respectively as strings, and save the changes.
-6. In the terminal, ensure that you are in the project folder, and run the command streamlit run AskBot.py.
+5. Copy your created HuggingFace API token, Cohere API key, and LangChain API key from the platforms. Inside the `.env` file, replace `"your HuggingFace API key"`, `"your Cohere API key"`, and `"your LangChain API key"` respectively as strings, and save the changes.
+6. In the terminal, ensure that you are in the project folder, and run the command `streamlit run AskBot.py`.
 7. The app will launch in your browser.
 
 
