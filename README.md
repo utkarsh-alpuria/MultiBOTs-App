@@ -1,15 +1,15 @@
 # MultiBOTs-App
 Streamlit App with LLM based chatbots.
 
-### About files ###
+### * About files: ###
 
-#### AskBot.py ####
+  #### * AskBot.py ####
 
-This file is like the main page of the app, when you launch the App this is the first UI you will see. A basic bot where you can ask quries.
+  This file is like the main page of the app, when you launch the App this is the first UI you will see. A basic bot where you can ask quries.
 
-#### .env ####
+  #### * .env ####
 
-This has the environmental variables(API keys) 
+  This has the environmental variables(API keys) 
 
 #### pages/1_ChatBot.py ####
 
