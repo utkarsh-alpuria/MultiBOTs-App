@@ -1,31 +1,25 @@
-# MultiBOTs-App
-Streamlit App with LLM based chatbots.
+### MultiBOTs-App
 
-### About files: ###
+A Streamlit App featuring LLM-based chatbots.
 
-#### AskBot.py ####
+#### About Files:
 
-This file is like the main page of the app, when you launch the App this is the first UI you will see. A basic bot where you can ask quries.
+- *AskBot.py*: This serves as the main page of the app. When you launch the app, this is the initial UI you encounter. It provides a basic bot where you can ask queries.
 
-#### .env ####
+- *.env*: This file contains environmental variables such as API keys.
 
-This has the environmental variables(API keys) 
+- *pages/1_ChatBot.py*: Another bot accessible from the sidebar of the UI. It can engage in chat conversations and remember context.
 
-#### pages/1_ChatBot.py ####
+- *pages/2_PDF-Bot.py*: This bot allows you to upload a PDF file and ask questions related to its content.
 
-This is another bot you can access from the side bar of UI. Capable of having a chat conversation remembering the context.
+### How to Run?
 
-#### pages/2_PDF-Bot.py ####
-
-This is a bot where you can upload a pdf file and ask question related to the text in pdf file.
-
-### How to Run? ###
-1) Clone the project
-2) Open project folder in code editor
-3) In code editor terminal run command pip install -r requirements.txt
-4) Create account <https://huggingface.co/> , <https://cohere.com/> and <https://www.langchain.com/> and generate your personal Api keys or token in all the platforms.
-5) Copy your created (HuggingFace Api token), (Cohere Api key) and (LangChain Api key) from the platforms and inside .env file replace "your HuggingFace api key", "your Cohere api key" and "your LangChain api key" respectively as strings and save the changes.
-6) In terminal check that you are in the project folder and run command streamlit run .\AskBot.py
-7) you will see the app will launch it the browser.
+1. Clone the project.
+2. Open the project folder in a code editor.
+3. In the code editor terminal, run the command pip install -r requirements.txt.
+4. Create accounts on [Hugging Face](https://huggingface.co/), [Cohere](https://cohere.com/), and [LangChain](https://www.langchain.com/), and generate your personal API keys or tokens on all platforms.
+5. Copy your created HuggingFace API token, Cohere API key, and LangChain API key from the platforms. Inside the .env file, replace "your HuggingFace API key", "your Cohere API key", and "your LangChain API key" respectively as strings, and save the changes.
+6. In the terminal, ensure that you are in the project folder, and run the command streamlit run AskBot.py.
+7. The app will launch in your browser.
 
 
