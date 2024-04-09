@@ -2,11 +2,13 @@
 
 A Streamlit App featuring LLM-based chatbots.
 
-#### About Files:
+### About Files:
 
 - *AskBot.py*: This serves as the main page of the app. When you launch the app, this is the initial UI you encounter. It provides a basic bot where you can ask queries.
 
 - *.env*: This file contains environmental variables such as API keys.
+
+- *requirements.txt*: This file has all the dependencies and modules.
 
 - *pages/1_ChatBot.py*: Another bot accessible from the sidebar of the UI. It can engage in chat conversations and remember context.
 
