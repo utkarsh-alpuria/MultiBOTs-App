@@ -1,0 +1,6 @@
+langchain
+python-dotenv
+streamlit
+cohere
+PyPDF2
+docarray
