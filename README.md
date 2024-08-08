@@ -16,21 +16,30 @@ A **Streamlit** app featuring various **LLM-based chatbots** designed to interac
   
 - **`pages/3_Tool-Bot.py`**: A tool/function calling bot that use google generative AI function calling to tell current weather and news.
 
-## 🚀 How to Run
+## 🚀 Get Started with the Project
 
-1. **Clone the Project**:
+1. Ensure Python is installed on your machine.
+2. Clone the project repository or download the zip file.
+3. Open the project folder in VS Code or any other IDE.
+4. Create a virtual environment using:
    ```bash
-   git clone <repository_url>
+   python -m venv <name_of_virtual_environment>
    ```
-
-2. **Open the Project Folder** in a code editor of your choice.
-
-3. **Install Dependencies**:
+5. Activate the virtual environment:
+   - On Windows:
+     ```bash
+     .\<name_of_virtual_environment>\Scripts\activate
+     ```
+   - On macOS/Linux:
+     ```bash
+     source <name_of_virtual_environment>/bin/activate
+     ```
+6. Install project dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-4. **Create Accounts** on the following platforms:
+7. **Create Accounts** on the following platforms:
    - [Hugging Face](https://huggingface.co/)
    - [Cohere](https://cohere.com/)
    - [LangChain](https://www.langchain.com/)
@@ -39,14 +48,16 @@ A **Streamlit** app featuring various **LLM-based chatbots** designed to interac
      
    Generate your personal API keys or tokens on all platforms.
 
-5. **Configure API Keys**:
+8. **Configure API Keys**:
    - Copy your Hugging Face API token, Cohere API key, and LangChain API key.
    - Open the `.env` file and replace `"your HuggingFace API key"`, `"your Cohere API key"`, `"your LangChain API key"`, `"your Google API key"` and `"your WeatherMap API key"` with your actual keys or token as strings. Save the changes.
 
-6. **Run the App**:
+9. **Run the App**:
    Ensure you are in the project directory and execute:
    ```bash
    streamlit run AskBot.py
    ```
 
-7. **Open the App** in your browser, and the app will launch automatically.
+10. **the App** will launch automatically in the browser.
+
+11. If not you will get a `http://localhost:port` link in the terminal, just open that link in the browser.
