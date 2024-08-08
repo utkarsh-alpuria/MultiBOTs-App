@@ -14,7 +14,7 @@ A **Streamlit** app featuring various **LLM-based chatbots** designed to interac
 
 - **`pages/2_PDF-Bot.py`**: A specialized bot that allows you to upload a PDF file and ask questions related to its content.
   
-- **`pages/3_Tool-Bot.py`**: A tool/function calling bot that the use google generative AI function calling to tell current weather and news.
+- **`pages/3_Tool-Bot.py`**: A tool/function calling bot that use google generative AI function calling to tell current weather and news.
 
 ## 🚀 How to Run
 
