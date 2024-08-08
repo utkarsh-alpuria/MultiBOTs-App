@@ -1,6 +1,6 @@
 # 🤖 MultiBOTs-App
 
-A **Streamlit** app featuring various **LLM-based chatbots** designed to interact with users in different ways.
+A **Streamlit** app featuring various **LLM-based Generative AI chatbots** designed to interact with users in different ways.
 
 ## 📂 About the Files
 
