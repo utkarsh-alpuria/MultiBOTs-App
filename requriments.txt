@@ -2,5 +2,8 @@ langchain
 python-dotenv
 streamlit
 cohere
-PyPDF2
+pyPDF2
+tiktoken
 docarray
+gnews
+google-generativeai
